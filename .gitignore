@@ -2,5 +2,8 @@
 bin/
 obj/
 
+# Database
+db/markdown.db
+
 # Shit created by Apple
 .DS_Store
