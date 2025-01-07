@@ -1,0 +1,6 @@
+# Build stuff
+bin/
+obj/
+
+# Shit created by Apple
+.DS_Store
