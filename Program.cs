@@ -1,9 +1,25 @@
-﻿namespace webgenerator;
+﻿using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Data.Sqlite;
 
-class Program
+namespace webgenerator
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            if (args.Length > 0 && args[0] == "seed")
+            {
+                Seeder.SeedDatabase();
+                return;
+            }
+
+            Console.WriteLine("Continuing with program");
+        }
     }
 }

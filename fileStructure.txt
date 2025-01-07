@@ -1,0 +1,27 @@
+/webgenerator
+    /input
+        /_partials
+            footer.html
+            headet.html
+        /assets
+            /img
+                new-webgen-example-website.jpg
+                welcome.jpg
+            style.css
+        /blog
+            2024-08-24-welcome.md
+            2024-09-24-new-webgen.md
+            index.html
+        about.md
+        index.md
+    /output
+        /assets
+        /blog
+        index.html
+    .gitignore
+    fileStructure.txt
+    global.json
+    Program.cs
+    README.md
+    webgenerator.csproj
+    webgenerator.sln
